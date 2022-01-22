@@ -1,0 +1,3 @@
+/Users/butek/CLionProjects/TetrisITis/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/butek/CLionProjects/TetrisITis/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/butek/CLionProjects/TetrisITis/cmake-build-debug/CMakeFiles/TetrisITis.dir
