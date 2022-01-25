@@ -6,25 +6,37 @@
 
 #IncludeRegexTransform: 
 
-/Users/butek/CLionProjects/TetrisITis/DrawableHUD.h
+/Users/butek/CLionProjects/TetrisGame/DrawableHUD.cpp
+DrawableHUD.h
+/Users/butek/CLionProjects/TetrisGame/DrawableHUD.h
+
+/Users/butek/CLionProjects/TetrisGame/DrawableHUD.h
 Vars.h
-/Users/butek/CLionProjects/TetrisITis/Vars.h
+/Users/butek/CLionProjects/TetrisGame/Vars.h
 sstream
 -
 
-/Users/butek/CLionProjects/TetrisITis/EventHandler.h
-Vars.h
-/Users/butek/CLionProjects/TetrisITis/Vars.h
-GameEngine.h
-/Users/butek/CLionProjects/TetrisITis/GameEngine.h
-drawableTetromino.h
-/Users/butek/CLionProjects/TetrisITis/drawableTetromino.h
-
-/Users/butek/CLionProjects/TetrisITis/GameEngine.h
-Vars.h
-/Users/butek/CLionProjects/TetrisITis/Vars.h
+/Users/butek/CLionProjects/TetrisGame/EventHandler.cpp
 EventHandler.h
-/Users/butek/CLionProjects/TetrisITis/EventHandler.h
+/Users/butek/CLionProjects/TetrisGame/EventHandler.h
+
+/Users/butek/CLionProjects/TetrisGame/EventHandler.h
+Vars.h
+/Users/butek/CLionProjects/TetrisGame/Vars.h
+GameEngine.h
+/Users/butek/CLionProjects/TetrisGame/GameEngine.h
+drawableTetromino.h
+/Users/butek/CLionProjects/TetrisGame/drawableTetromino.h
+
+/Users/butek/CLionProjects/TetrisGame/GameEngine.cpp
+GameEngine.h
+/Users/butek/CLionProjects/TetrisGame/GameEngine.h
+
+/Users/butek/CLionProjects/TetrisGame/GameEngine.h
+Vars.h
+/Users/butek/CLionProjects/TetrisGame/Vars.h
+EventHandler.h
+/Users/butek/CLionProjects/TetrisGame/EventHandler.h
 iostream
 -
 vector
@@ -32,9 +44,9 @@ vector
 sstream
 -
 drawableTetromino.h
-/Users/butek/CLionProjects/TetrisITis/drawableTetromino.h
+/Users/butek/CLionProjects/TetrisGame/drawableTetromino.h
 
-/Users/butek/CLionProjects/TetrisITis/Vars.h
+/Users/butek/CLionProjects/TetrisGame/Vars.h
 SFML/Graphics.hpp
 -
 iostream
@@ -42,21 +54,29 @@ iostream
 memory
 -
 
-/Users/butek/CLionProjects/TetrisITis/drawableTetromino.h
+/Users/butek/CLionProjects/TetrisGame/drawableTetromino.cpp
+drawableTetromino.h
+/Users/butek/CLionProjects/TetrisGame/drawableTetromino.h
+shapeStruct.h
+/Users/butek/CLionProjects/TetrisGame/shapeStruct.h
+
+/Users/butek/CLionProjects/TetrisGame/drawableTetromino.h
 Vars.h
-/Users/butek/CLionProjects/TetrisITis/Vars.h
+/Users/butek/CLionProjects/TetrisGame/Vars.h
 SFML/Graphics/Sprite.hpp
 -
 DrawableHUD.h
-/Users/butek/CLionProjects/TetrisITis/DrawableHUD.h
+/Users/butek/CLionProjects/TetrisGame/DrawableHUD.h
 GameEngine.h
-/Users/butek/CLionProjects/TetrisITis/GameEngine.h
+/Users/butek/CLionProjects/TetrisGame/GameEngine.h
 
-/Users/butek/CLionProjects/TetrisITis/main.cpp
+/Users/butek/CLionProjects/TetrisGame/main.cpp
 SFML/Graphics.hpp
 -
 GameEngine.h
-/Users/butek/CLionProjects/TetrisITis/GameEngine.h
+/Users/butek/CLionProjects/TetrisGame/GameEngine.h
+
+/Users/butek/CLionProjects/TetrisGame/shapeStruct.h
 
 /usr/local/include/SFML/Config.hpp
 TargetConditionals.h

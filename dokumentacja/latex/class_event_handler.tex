@@ -1,0 +1,53 @@
+\hypertarget{class_event_handler}{}\doxysection{Dokumentacja klasy Event\+Handler}
+\label{class_event_handler}\index{EventHandler@{EventHandler}}
+
+
+Klasa obsługi zdarzeń w programie.  
+
+
+
+
+{\ttfamily \#include $<$Event\+Handler.\+h$>$}
+
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_event_handler_a8fe27b69582cce5c6a89a0b134bc8158}\label{class_event_handler_a8fe27b69582cce5c6a89a0b134bc8158}} 
+{\bfseries Event\+Handler} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor klasy \mbox{\hyperlink{class_event_handler}{Event\+Handler}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Statyczne metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{class_event_handler_ac62c7f1242ec2422c7a1731e2b0e4a61}{move\+Events}} (sf\+::\+Event \&event, \mbox{\hyperlink{_vars_8h_abb0a0d325512c70133b4aaab142ca460}{current\+Tetromino}} \&tetromino, bool paused)
+\begin{DoxyCompactList}\small\item\em Metoda realizująca zdarzenia klawiszowe pobierane od użytkownika podczas gry. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Opis szczegółowy}
+Klasa obsługi zdarzeń w programie. 
+
+Klasa ta obsługuje i przetwarza zdarzenia klawiszowe, oraz wykonuje metody przypisane do tych zdarzeń pozwalając uzyskać możliwość ruchu bloku 
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\mbox{\Hypertarget{class_event_handler_ac62c7f1242ec2422c7a1731e2b0e4a61}\label{class_event_handler_ac62c7f1242ec2422c7a1731e2b0e4a61}} 
+\index{EventHandler@{EventHandler}!moveEvents@{moveEvents}}
+\index{moveEvents@{moveEvents}!EventHandler@{EventHandler}}
+\doxysubsubsection{\texorpdfstring{moveEvents()}{moveEvents()}}
+{\footnotesize\ttfamily void Event\+Handler\+::move\+Events (\begin{DoxyParamCaption}\item[{sf\+::\+Event \&}]{event,  }\item[{\mbox{\hyperlink{_vars_8h_abb0a0d325512c70133b4aaab142ca460}{current\+Tetromino}} \&}]{tetromino,  }\item[{bool}]{paused }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Metoda realizująca zdarzenia klawiszowe pobierane od użytkownika podczas gry. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em event} & referencja pozwalająca uzyskać dostęp do obiektu realizującego zdarzenia znajdującego się w pętli głównej gry \\
+\hline
+{\em tetromino} & referencja do tzw \char`\"{}sprytnego wskaźnika\char`\"{} pozwalającego wykorzystać metody z klasy \mbox{\hyperlink{classdrawable_tetromino}{drawable\+Tetromino}} na potrzeby wykonania zdarzeń przypisanych poszczególnym klawiszom Metoda ta poprzez wywołanie odpowiednich metod z klasy \mbox{\hyperlink{classdrawable_tetromino}{drawable\+Tetromino}} pozwala zarządzać zdarzeniami generowanymi w programie podczas naciśnięcia odpowiedniego klawisza spośród obsługiwanych. \\
+\hline
+\end{DoxyParams}
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Barti/\+Desktop/zajecia/semestr 5/\+Grafika komputerowa/\+Tetris\+ITis/\mbox{\hyperlink{_event_handler_8h}{Event\+Handler.\+h}}\item 
+C\+:/\+Users/\+Barti/\+Desktop/zajecia/semestr 5/\+Grafika komputerowa/\+Tetris\+ITis/Event\+Handler.\+cpp\end{DoxyCompactItemize}

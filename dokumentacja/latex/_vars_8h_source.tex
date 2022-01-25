@@ -1,0 +1,30 @@
+\hypertarget{_vars_8h_source}{}\doxysection{Vars.\+h}
+\label{_vars_8h_source}\index{C:/Users/Barti/Desktop/zajecia/semestr 5/Grafika komputerowa/TetrisITis/Vars.h@{C:/Users/Barti/Desktop/zajecia/semestr 5/Grafika komputerowa/TetrisITis/Vars.h}}
+\mbox{\hyperlink{_vars_8h}{Idź do dokumentacji tego pliku.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef TETRISITIS\_VARS\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define TETRISITIS\_VARS\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#include <SFML/Graphics.hpp>}}
+\DoxyCodeLine{10 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{11 \textcolor{preprocessor}{\#include <memory>}}
+\DoxyCodeLine{12 }
+\DoxyCodeLine{13 \textcolor{keyword}{class }\mbox{\hyperlink{classdrawable_h_u_d}{drawableHUD}};}
+\DoxyCodeLine{14 \textcolor{keyword}{class }\mbox{\hyperlink{classdrawable_tetromino}{drawableTetromino}};}
+\DoxyCodeLine{15 \textcolor{keyword}{class }\mbox{\hyperlink{class_event_handler}{EventHandler}};}
+\DoxyCodeLine{17 \textcolor{keyword}{using} \mbox{\hyperlink{_vars_8h_abb0a0d325512c70133b4aaab142ca460}{currentTetromino}} = std::shared\_ptr<drawableTetromino>;}
+\DoxyCodeLine{19 \textcolor{keyword}{using} \mbox{\hyperlink{_vars_8h_a4550b5ca63b98d086cf2a5351b8e89ae}{eventPtr}} = std::shared\_ptr<EventHandler>;}
+\DoxyCodeLine{21 \textcolor{keyword}{using} \mbox{\hyperlink{_vars_8h_a92f5bb063b6b4dd1d9897d255c337f56}{HUDptr}} = std::shared\_ptr<drawableHUD>;}
+\DoxyCodeLine{22 }
+\DoxyCodeLine{24 \textcolor{keyword}{struct }\mbox{\hyperlink{struct_tetris_vars}{TetrisVars}}}
+\DoxyCodeLine{25 \{}
+\DoxyCodeLine{26     \textcolor{keyword}{static} \textcolor{keywordtype}{float} \mbox{\hyperlink{struct_tetris_vars_af0d76f15f180e07b36a5bbe2a213344f}{countTime}}; }
+\DoxyCodeLine{27     \textcolor{keyword}{static} \textcolor{keywordtype}{float} \mbox{\hyperlink{struct_tetris_vars_a3aeb6b46328d268b7a054a2fc8798661}{deltaTime}}; }
+\DoxyCodeLine{28     \textcolor{keyword}{static} \textcolor{keyword}{const} \textcolor{keywordtype}{int} \mbox{\hyperlink{struct_tetris_vars_aec8bd9567f4bc73254901853477e4003}{windowHeight}} = 400; }
+\DoxyCodeLine{29     \textcolor{keyword}{static} \textcolor{keyword}{const} \textcolor{keywordtype}{int} \mbox{\hyperlink{struct_tetris_vars_aebe6bc733d7464c09ca5852152c85c85}{windowWidth}} = 280; }
+\DoxyCodeLine{30 \};}
+\DoxyCodeLine{31 }
+\DoxyCodeLine{32 \textcolor{preprocessor}{\#endif }\textcolor{comment}{//TETRISITIS\_VARS\_H}}
+
+\end{DoxyCode}

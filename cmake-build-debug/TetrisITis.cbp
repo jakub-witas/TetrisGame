@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\SFML\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/butek/CLionProjects/TetrisITis/cmake-build-debug"/>
+				<Option working_dir="/Users/butek/CLionProjects/TetrisGame/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/butek/CLionProjects/TetrisITis/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/butek/CLionProjects/TetrisITis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/butek/CLionProjects/TetrisITis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/butek/CLionProjects/TetrisITis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/butek/CLionProjects/TetrisGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/butek/CLionProjects/TetrisGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/butek/CLionProjects/TetrisGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/butek/CLionProjects/TetrisGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/butek/CLionProjects/TetrisITis/cmake-build-debug"/>
+				<Option working_dir="/Users/butek/CLionProjects/TetrisGame/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/butek/CLionProjects/TetrisITis/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/butek/CLionProjects/TetrisITis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/butek/CLionProjects/TetrisITis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/butek/CLionProjects/TetrisITis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/butek/CLionProjects/TetrisGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/butek/CLionProjects/TetrisGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/butek/CLionProjects/TetrisGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/butek/CLionProjects/TetrisGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/butek/CLionProjects/TetrisITis/cmake-build-debug"/>
+				<Option working_dir="/Users/butek/CLionProjects/TetrisGame/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/butek/CLionProjects/TetrisITis/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/butek/CLionProjects/TetrisITis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/butek/CLionProjects/TetrisITis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/butek/CLionProjects/TetrisITis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/butek/CLionProjects/TetrisGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/butek/CLionProjects/TetrisGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/butek/CLionProjects/TetrisGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/butek/CLionProjects/TetrisGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="TetrisITis">
-				<Option output="/Users/butek/CLionProjects/TetrisITis/cmake-build-debug/TetrisITis" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/butek/CLionProjects/TetrisITis/cmake-build-debug"/>
+				<Option output="/Users/butek/CLionProjects/TetrisGame/cmake-build-debug/TetrisITis" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/butek/CLionProjects/TetrisGame/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,15 +52,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/butek/CLionProjects/TetrisITis/cmake-build-debug/Makefile&quot;  VERBOSE=1 TetrisITis"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/butek/CLionProjects/TetrisITis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/butek/CLionProjects/TetrisITis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/butek/CLionProjects/TetrisITis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/butek/CLionProjects/TetrisGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 TetrisITis"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/butek/CLionProjects/TetrisGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/butek/CLionProjects/TetrisGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/butek/CLionProjects/TetrisGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="TetrisITis/fast">
-				<Option output="/Users/butek/CLionProjects/TetrisITis/cmake-build-debug/TetrisITis" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/butek/CLionProjects/TetrisITis/cmake-build-debug"/>
+				<Option output="/Users/butek/CLionProjects/TetrisGame/cmake-build-debug/TetrisITis" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/butek/CLionProjects/TetrisGame/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -73,62 +73,62 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/butek/CLionProjects/TetrisITis/cmake-build-debug/Makefile&quot;  VERBOSE=1 TetrisITis/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/butek/CLionProjects/TetrisITis/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/butek/CLionProjects/TetrisITis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/butek/CLionProjects/TetrisITis/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/butek/CLionProjects/TetrisGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 TetrisITis/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/butek/CLionProjects/TetrisGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/butek/CLionProjects/TetrisGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/butek/CLionProjects/TetrisGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/butek/CLionProjects/TetrisITis/DrawableHUD.cpp">
+		<Unit filename="/Users/butek/CLionProjects/TetrisGame/DrawableHUD.cpp">
 			<Option target="TetrisITis"/>
 		</Unit>
-		<Unit filename="/Users/butek/CLionProjects/TetrisITis/DrawableHUD.h">
+		<Unit filename="/Users/butek/CLionProjects/TetrisGame/DrawableHUD.h">
 			<Option target="TetrisITis"/>
 		</Unit>
-		<Unit filename="/Users/butek/CLionProjects/TetrisITis/EventHandler.cpp">
+		<Unit filename="/Users/butek/CLionProjects/TetrisGame/EventHandler.cpp">
 			<Option target="TetrisITis"/>
 		</Unit>
-		<Unit filename="/Users/butek/CLionProjects/TetrisITis/EventHandler.h">
+		<Unit filename="/Users/butek/CLionProjects/TetrisGame/EventHandler.h">
 			<Option target="TetrisITis"/>
 		</Unit>
-		<Unit filename="/Users/butek/CLionProjects/TetrisITis/GameEngine.cpp">
+		<Unit filename="/Users/butek/CLionProjects/TetrisGame/GameEngine.cpp">
 			<Option target="TetrisITis"/>
 		</Unit>
-		<Unit filename="/Users/butek/CLionProjects/TetrisITis/GameEngine.h">
+		<Unit filename="/Users/butek/CLionProjects/TetrisGame/GameEngine.h">
 			<Option target="TetrisITis"/>
 		</Unit>
-		<Unit filename="/Users/butek/CLionProjects/TetrisITis/Vars.h">
+		<Unit filename="/Users/butek/CLionProjects/TetrisGame/Vars.h">
 			<Option target="TetrisITis"/>
 		</Unit>
-		<Unit filename="/Users/butek/CLionProjects/TetrisITis/drawableTetromino.cpp">
+		<Unit filename="/Users/butek/CLionProjects/TetrisGame/drawableTetromino.cpp">
 			<Option target="TetrisITis"/>
 		</Unit>
-		<Unit filename="/Users/butek/CLionProjects/TetrisITis/drawableTetromino.h">
+		<Unit filename="/Users/butek/CLionProjects/TetrisGame/drawableTetromino.h">
 			<Option target="TetrisITis"/>
 		</Unit>
-		<Unit filename="/Users/butek/CLionProjects/TetrisITis/main.cpp">
+		<Unit filename="/Users/butek/CLionProjects/TetrisGame/main.cpp">
 			<Option target="TetrisITis"/>
 		</Unit>
-		<Unit filename="/Users/butek/CLionProjects/TetrisITis/shapeStruct.h">
+		<Unit filename="/Users/butek/CLionProjects/TetrisGame/shapeStruct.h">
 			<Option target="TetrisITis"/>
 		</Unit>
-		<Unit filename="/Users/butek/CLionProjects/TetrisITis/CMakeLists.txt">
+		<Unit filename="/Users/butek/CLionProjects/TetrisGame/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/Users/butek/CLionProjects/TetrisITis/../../../../usr/local/lib/cmake/SFML/SFMLConfig.cmake">
+		<Unit filename="/Users/butek/CLionProjects/TetrisGame/../../../../usr/local/lib/cmake/SFML/SFMLConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\SFML\"/>
 		</Unit>
-		<Unit filename="/Users/butek/CLionProjects/TetrisITis/../../../../usr/local/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+		<Unit filename="/Users/butek/CLionProjects/TetrisGame/../../../../usr/local/lib/cmake/SFML/SFMLConfigDependencies.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\SFML\"/>
 		</Unit>
-		<Unit filename="/Users/butek/CLionProjects/TetrisITis/../../../../usr/local/lib/cmake/SFML/SFMLConfigVersion.cmake">
+		<Unit filename="/Users/butek/CLionProjects/TetrisGame/../../../../usr/local/lib/cmake/SFML/SFMLConfigVersion.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\SFML\"/>
 		</Unit>
-		<Unit filename="/Users/butek/CLionProjects/TetrisITis/../../../../usr/local/lib/cmake/SFML/SFMLSharedTargets-release.cmake">
+		<Unit filename="/Users/butek/CLionProjects/TetrisGame/../../../../usr/local/lib/cmake/SFML/SFMLSharedTargets-release.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\SFML\"/>
 		</Unit>
-		<Unit filename="/Users/butek/CLionProjects/TetrisITis/../../../../usr/local/lib/cmake/SFML/SFMLSharedTargets.cmake">
+		<Unit filename="/Users/butek/CLionProjects/TetrisGame/../../../../usr/local/lib/cmake/SFML/SFMLSharedTargets.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\SFML\"/>
 		</Unit>
 	</Project>

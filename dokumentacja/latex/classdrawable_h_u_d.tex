@@ -1,0 +1,72 @@
+\hypertarget{classdrawable_h_u_d}{}\doxysection{Dokumentacja klasy drawable\+HUD}
+\label{classdrawable_h_u_d}\index{drawableHUD@{drawableHUD}}
+
+
+Klasa odpowiadająca za interfejs gry.  
+
+
+
+
+{\ttfamily \#include $<$Drawable\+HUD.\+h$>$}
+
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classdrawable_h_u_d_a3e68fdbd83c0bffd49ee3ad4c62b9a88}\label{classdrawable_h_u_d_a3e68fdbd83c0bffd49ee3ad4c62b9a88}} 
+void {\bfseries background\+Init} ()
+\begin{DoxyCompactList}\small\item\em Metoda inicjująca tło gry, które następnie po jej wykonaniu jest gotowe do narysowania w oknie Działanie metody polega na załadowaniu tekstury do pliku, a następnie nałożenie jej na Sprite czyli graficzną reprezentację obiektu. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classdrawable_h_u_d_a2d69e0e3bfc49a70b25b9036da149de7}\label{classdrawable_h_u_d_a2d69e0e3bfc49a70b25b9036da149de7}} 
+void {\bfseries draw\+Background} ()
+\begin{DoxyCompactList}\small\item\em Metoda rysująca załadowane do programu tło gry w oknie Bardzo prosta metoda, która przy pomocy funcji \char`\"{}draw\char`\"{} z biblioteki SFML rysuje uprzednio przygotowane tło w oknie głównym programu. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classdrawable_h_u_d_aa8f8788d69940ef80ea02e0472bb1432}\label{classdrawable_h_u_d_aa8f8788d69940ef80ea02e0472bb1432}} 
+void {\bfseries score\+Label} ()
+\begin{DoxyCompactList}\small\item\em Metoda inicjująca etykietę punktacji Metoda ta odpowiadaja za przygotowanie etykiety punktacji z tekstem \char`\"{}\+Score\+:\char`\"{} do załadowania do silnika gry, który następnie wyswietli ją w oknie. Konfiguracja polega na\+: załadowaniu czcionki z pliku i nałożenia jej na obiekt, ustawienie parametrów takich jak tekst, rozmiar, kolor, styl, czy pozycja, a następnie wywołaniu funkcji draw dla gotowego obiektu. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classdrawable_h_u_d_aaee3d42ce0bf28e02f08b4bc3124e755}\label{classdrawable_h_u_d_aaee3d42ce0bf28e02f08b4bc3124e755}} 
+void {\bfseries update\+Score} ()
+\begin{DoxyCompactList}\small\item\em Metoda obsługująca inkrementację wyniku gracza Prosta metoda inkrementująca wynik gracza wraz z ukańczaniem przez niego kolejnych wierszy. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classdrawable_h_u_d_ae17af31545b293f6aecff018697589db}\label{classdrawable_h_u_d_ae17af31545b293f6aecff018697589db}} 
+void {\bfseries lines\+Completed\+Label} ()
+\begin{DoxyCompactList}\small\item\em Metoda przygotowująca do wyświetlenia etykietę ukończonych wierszy. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classdrawable_h_u_d_a5d6c894ad80858c3b6dd848fba293b0e}\label{classdrawable_h_u_d_a5d6c894ad80858c3b6dd848fba293b0e}} 
+void {\bfseries score} ()
+\begin{DoxyCompactList}\small\item\em Metoda pozwalająca wyświetlić w oknie punktację w postaci obiektu klasy Text Metoda pozwala przygotować graficzną reprezentację wyniku gracza. Jej dzia{\ucr}anie polega na ustawieniu czcionki, przekonwertowaniu tekstu na wartość numeryczną, ustawieniu podstawowych parametrów takich jak kolor, rozmiar, pozycja, styl, oraz wyświetleniu gotowego obiektu w oknie. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classdrawable_h_u_d_ad102c13c91f51467c8b42c9d2d571ecf}\label{classdrawable_h_u_d_ad102c13c91f51467c8b42c9d2d571ecf}} 
+void {\bfseries lines\+Completed\+Value\+Text} ()
+\begin{DoxyCompactList}\small\item\em Metoda wyświetlająca w oknie bieżącą ilość linii ukończonch przez gracza jako obiekt typu Text Metoda ta tworzy obiekt typu Text, który następnie po przekonwertowaniu na typ numeryczny i nadaniu mu odpowiednich parametrów takich jak czcionka, rozmiar, kolor itp. zostaje wyświetlony na ekranie. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classdrawable_h_u_d_adeeb5b1cef623d8976e0bc803818b7c4}\label{classdrawable_h_u_d_adeeb5b1cef623d8976e0bc803818b7c4}} 
+void {\bfseries lines\+Update} ()
+\begin{DoxyCompactList}\small\item\em Metoda inkremenrująca ilość ukończonych wierszy o 1. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classdrawable_h_u_d_a4821d7c68bba760c0bf368e7f57a3a84}\label{classdrawable_h_u_d_a4821d7c68bba760c0bf368e7f57a3a84}} 
+void {\bfseries game\+Borders} ()
+\begin{DoxyCompactList}\small\item\em Metoda rysująca granice pola gry Przy pomocy obiektów typu Rectangle\+Shape metoda ta rysuje linie, które służą jako granice pola gry. Po nadaniu odpowiednich parametrów dla każdej z 3 linii zostaje ona wyświetlona w oknie przy pomocy funkcji window.\+draw(). \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classdrawable_h_u_d_a5083eab3d393d72ce2f9c5d1be6d1c02}{drawable\+HUD}} (sf\+::\+Render\+Window \&window)
+\begin{DoxyCompactList}\small\item\em Konstruktor klasy \mbox{\hyperlink{classdrawable_h_u_d}{drawable\+HUD}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Opis szczegółowy}
+Klasa odpowiadająca za interfejs gry. 
+
+Klasa ta zawiera obiekty, oraz metody ukryte na potrzeby interfejsu tzw. HUD. Metody tej klasy odpowiadają m.\+in. za działania takie jak\+: przygotowanie tła do wyświetlenia na ekranie, renderowanie w oknie przygotowanych tekstur, tworzenie obiektów tekstowych składających się na sekcji punktacji czy informacji o stanie rozgrywki 
+
+\doxysubsection{Dokumentacja konstruktora i destruktora}
+\mbox{\Hypertarget{classdrawable_h_u_d_a5083eab3d393d72ce2f9c5d1be6d1c02}\label{classdrawable_h_u_d_a5083eab3d393d72ce2f9c5d1be6d1c02}} 
+\index{drawableHUD@{drawableHUD}!drawableHUD@{drawableHUD}}
+\index{drawableHUD@{drawableHUD}!drawableHUD@{drawableHUD}}
+\doxysubsubsection{\texorpdfstring{drawableHUD()}{drawableHUD()}}
+{\footnotesize\ttfamily drawable\+HUD\+::drawable\+HUD (\begin{DoxyParamCaption}\item[{sf\+::\+Render\+Window \&}]{window }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Konstruktor klasy \mbox{\hyperlink{classdrawable_h_u_d}{drawable\+HUD}}. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em window} & Referencja do okna głównego w celu rysowania na nim wygenerowanych obiektów Konstruktor ustawia wartość początkową zmiennej wyniku, oraz inicjuje metodę background\+Init \\
+\hline
+\end{DoxyParams}
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Barti/\+Desktop/zajecia/semestr 5/\+Grafika komputerowa/\+Tetris\+ITis/\mbox{\hyperlink{_drawable_h_u_d_8h}{Drawable\+HUD.\+h}}\item 
+C\+:/\+Users/\+Barti/\+Desktop/zajecia/semestr 5/\+Grafika komputerowa/\+Tetris\+ITis/Drawable\+HUD.\+cpp\end{DoxyCompactItemize}

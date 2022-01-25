@@ -1,0 +1,42 @@
+\hypertarget{_game_engine_8h_source}{}\doxysection{Game\+Engine.\+h}
+\label{_game_engine_8h_source}\index{C:/Users/Barti/Desktop/zajecia/semestr 5/Grafika komputerowa/TetrisITis/GameEngine.h@{C:/Users/Barti/Desktop/zajecia/semestr 5/Grafika komputerowa/TetrisITis/GameEngine.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#ifndef TETRISITIS\_GAMEENGINE\_H}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define TETRISITIS\_GAMEENGINE\_H}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{10 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_vars_8h}{Vars.h}}"{}}}
+\DoxyCodeLine{11 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_event_handler_8h}{EventHandler.h}}"{}}}
+\DoxyCodeLine{12 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{13 \textcolor{preprocessor}{\#include <vector>}}
+\DoxyCodeLine{14 \textcolor{preprocessor}{\#include <sstream>}}
+\DoxyCodeLine{15 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{drawable_tetromino_8h}{drawableTetromino.h}}"{}}}
+\DoxyCodeLine{16 }
+\DoxyCodeLine{17 \textcolor{keyword}{class }\mbox{\hyperlink{class_game_engine}{GameEngine}} \{}
+\DoxyCodeLine{18 }
+\DoxyCodeLine{19     sf::RenderWindow\& window; }
+\DoxyCodeLine{20     sf::Text scoreLabelText; }
+\DoxyCodeLine{21     sf::Text linesCompletedText; }
+\DoxyCodeLine{22     sf::Text scoreText; }
+\DoxyCodeLine{23     sf::Font font; }
+\DoxyCodeLine{24     \textcolor{keywordtype}{int} scoreValue; }
+\DoxyCodeLine{25     \mbox{\hyperlink{_vars_8h_abb0a0d325512c70133b4aaab142ca460}{currentTetromino}} tetromino; }
+\DoxyCodeLine{26     \mbox{\hyperlink{_vars_8h_a4550b5ca63b98d086cf2a5351b8e89ae}{eventPtr}} event\_ptr; }
+\DoxyCodeLine{27     \mbox{\hyperlink{_vars_8h_a92f5bb063b6b4dd1d9897d255c337f56}{HUDptr}} hud; }
+\DoxyCodeLine{28 \textcolor{keyword}{public}:}
+\DoxyCodeLine{32     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_game_engine_a5cbd1eef7917ab2ce33fd739fd537c53}{draw}}();}
+\DoxyCodeLine{39     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_game_engine_a8e9a7982482a806df15f4f951f65ccb2}{update}}(sf::Event \&event);}
+\DoxyCodeLine{43     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_game_engine_a3503925a9c294b119f7835caf375e5e4}{moveEvents}}(sf::Event \&event);}
+\DoxyCodeLine{47     \textcolor{keyword}{explicit} \mbox{\hyperlink{class_game_engine_a98b8e08fe994fca0cd9673894fcd01b9}{GameEngine}}(sf::RenderWindow\& window);}
+\DoxyCodeLine{48 }
+\DoxyCodeLine{49     \textcolor{keywordtype}{void} pause();}
+\DoxyCodeLine{50     \textcolor{keywordtype}{int} gameOver();}
+\DoxyCodeLine{51     \textcolor{keywordtype}{bool} paused;}
+\DoxyCodeLine{52     \textcolor{keywordtype}{bool} gameOverState;}
+\DoxyCodeLine{53 \};}
+\DoxyCodeLine{54 }
+\DoxyCodeLine{55 }
+\DoxyCodeLine{56 \textcolor{preprocessor}{\#endif }\textcolor{comment}{//TETRISITIS\_GAMEENGINE\_H}}
+
+\end{DoxyCode}

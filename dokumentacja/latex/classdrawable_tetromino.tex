@@ -1,0 +1,106 @@
+\hypertarget{classdrawable_tetromino}{}\doxysection{Dokumentacja klasy drawable\+Tetromino}
+\label{classdrawable_tetromino}\index{drawableTetromino@{drawableTetromino}}
+
+
+Klasa odpowiadająca za wszystkie akcje i zachowania związane z danym blokiem.  
+
+
+
+
+{\ttfamily \#include $<$drawable\+Tetromino.\+h$>$}
+
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classdrawable_tetromino_a71d2ff5bf5a282db68985d9ca931b749}{move\+Sides}} (float direction)
+\begin{DoxyCompactList}\small\item\em Metoda obsługująca ruch bloku w płaszczyźnie poziomej (lewo, prawo) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classdrawable_tetromino_aead77952a4c99aaadff7772c49c3a101}{rotate}} (bool is\+Rotating)
+\begin{DoxyCompactList}\small\item\em Metoda obsługująca ruch rotacyjny bloku. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classdrawable_tetromino_a927d4c479a8a8acc7e0a684185800346}\label{classdrawable_tetromino_a927d4c479a8a8acc7e0a684185800346}} 
+void {\bfseries move\+Down} ()
+\begin{DoxyCompactList}\small\item\em Metoda dla poruszania bieżącym tetrimino w dół (kierunek jest tu tylko jeden więc użycie parametru nie jest konieczne) Działanie tej metody powiązane jest z obsługą zdarzeń. Ilekroć gracz naciśnie strzałkę kierunkową w dół pętla for iteracyjnie zmieni pozycje kwadracików przemieszczając blok o jeden wiersz niżej. Zabezpieczenie metody przed kolizją i niepożądanym działaniem zostało umieszczone zarówno w jej ciele jak i klasie obsługi zdarzeń \mbox{\hyperlink{class_event_handler}{Event\+Handler}} tak aby nie można było poruszyć blokiem, który już opadł na stos, oraz w razie napotkania kolizji odmówić akcji. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classdrawable_tetromino_a2b8685465930361ea5fe57494ad46234}\label{classdrawable_tetromino_a2b8685465930361ea5fe57494ad46234}} 
+void {\bfseries draw} ()
+\begin{DoxyCompactList}\small\item\em Główna metoda odpowiadająca za rysowanie skonstruowanego i gotowego obiektu bloku Metoda ta dzięki pętlom for iteruje w obrębie pola gry wycinając tekstury z bitmapy, ustawiając pozycję, odsuwając nieco pole gry od krawędzi okna i rysując bloki które już się tam znajdują tak aby były one widoczne na stosie na dole planszy. Kolejna pętla for poniżej odpowiada już za rysowanie bieżącego bloku nadając mu pozycją, wylosowany kolor, oraz w/w tzw. \char`\"{}offset\char`\"{}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classdrawable_tetromino_aa794e72cf7e87453a33aa7fcc82481e0}\label{classdrawable_tetromino_aa794e72cf7e87453a33aa7fcc82481e0}} 
+void {\bfseries init\+Piece} ()
+\begin{DoxyCompactList}\small\item\em Metoda obsługująca inicjowanie bloku na które składa się między innymi wstepne utworzenie tekstury Metoda ta {\ucr}aduje teksturą z pliku, nakłada ją na obiekt typu Sprite, oraz przydziela kolor bloku spośród 7 dostępnych możliwości. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classdrawable_tetromino_a44eb9690db6861f9eaa4d8c4ce243597}\label{classdrawable_tetromino_a44eb9690db6861f9eaa4d8c4ce243597}} 
+void {\bfseries config} ()
+\begin{DoxyCompactList}\small\item\em Metoda w której konstruowane są bloki, które następnie gotowe są do narysowania i manipulacji nimi w grze Metoda ta po uprzednim sprawdzeniu kolizji, losuje i przypisuje kolor na odpowiednią pozycją w obrębie pola na której znajduje się blok. Następnie po wylosowaniu rodzaju bloku spośród 7 możliwych wykonywany jest algorytm, który na podstawie tablicy figures wybiera odpowiednie elementy (zestawy cyfr odpowiadające danemu blokowi) na których wykonuje on operacje modulo, oraz dzielenia w celu przypisania kwadracikom odpowiedniej pozycji. W ten sposób uzyskujemy gotowy kształt bloku. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classdrawable_tetromino_a3eef852ecd64180560537f0a588034ca}\label{classdrawable_tetromino_a3eef852ecd64180560537f0a588034ca}} 
+void {\bfseries piece\+Falling} ()
+\begin{DoxyCompactList}\small\item\em Metoda odpowiadająca za samoczynne opadanie bloku zgodnie z ustalonym opóźnieniem wynoszącym 0.\+5s Metoda ta zgodnie z opóźnieniem 0.\+5 sekundy iteracyjnie zmienia pozycją kwadracików tak aby uzyskać przemieszczenie bieżącego bloku o jeden wiersz w dół. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classdrawable_tetromino_ac2f3f2f244269dfec31743cdcdf35139}\label{classdrawable_tetromino_ac2f3f2f244269dfec31743cdcdf35139}} 
+void {\bfseries color\+Init} ()
+\begin{DoxyCompactList}\small\item\em Metoda zajmująca się wstępnym pozyskaniem koloru dla rysowanego bloku W metodzie tej na potrzeby uzyskania koloru z bitmapy na której znajdują się klocki wycięta zostaje ta część, która odpowiada zadanemu kolorowi. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classdrawable_tetromino_ad978d2abd483d3c86ffdb0410f2a2bdd}\label{classdrawable_tetromino_ad978d2abd483d3c86ffdb0410f2a2bdd}} 
+bool {\bfseries check\+Collision} ()
+\begin{DoxyCompactList}\small\item\em Główna metoda sprawdzająca różne typy kolizji wykorzystywana w wielu metodach projektu Metoda ta iteracyjnie przeprowadzając operację sprawdzania pozycji kwadracików składających się na blok bada kolizję z krawędziami pola gry, oraz pozostałymi blokami. Po wykonaniu metoda zwraca wartość odpowiadającą sytuacji która nastąpiła (wykrycie lub brak kolizji). \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classdrawable_tetromino_adcc264d2cfb7b3eaa5d096e6f16b9773}\label{classdrawable_tetromino_adcc264d2cfb7b3eaa5d096e6f16b9773}} 
+int {\bfseries check\+Lines} ()
+\begin{DoxyCompactList}\small\item\em Metoda zajmująca się sprawdzaniem czy zostały ukończone jakiekolwiek wiersze. Jeśli tak są one usuwane Metoda ta iteracyjnie badając stan pola gry pozwala na sprawdzenie, czy jakiekolwiek wiersze zostały już ukończone. Jeśli taka sytuacja nastąpi kompletne wiersze zostają usunięte, a wartość zwracana przez tą metodą zostaje przekazana do metody update w celu inkrementacji wartości wyniku gracza. Metoda ta obsługują również sytuację kiedy gra zostaje zakończona tzn. jeśli pole gry zostało zapełnione w danym pionie, układanie bloków nie może być kontynuowane. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classdrawable_tetromino_ad2ab4bb39978416f91930c7e923dbddf}{drawable\+Tetromino}} (sf\+::\+Render\+Window \&window)
+\begin{DoxyCompactList}\small\item\em Konstruktor klasy \mbox{\hyperlink{classdrawable_tetromino}{drawable\+Tetromino}} gdzie następuje inicjowanie wybranych metod, zmiennych i pozostałych elementów koniecznych dla danej klasy. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Opis szczegółowy}
+Klasa odpowiadająca za wszystkie akcje i zachowania związane z danym blokiem. 
+
+Klasa ta zawiera obiekty, oraz metody użyte na potrzeby logiki i zachować bloku. Metody i zmienne zawarte w tej klasie odpowiadają m.\+in. za ruch bloku, rotacje, sprawdzanie kolizji, kolorowanie bloków, sprawdzanie wierszy, konfigurowanie kształtów, czy też rysowanie końcowego obiektu w oknie. 
+
+\doxysubsection{Dokumentacja konstruktora i destruktora}
+\mbox{\Hypertarget{classdrawable_tetromino_ad2ab4bb39978416f91930c7e923dbddf}\label{classdrawable_tetromino_ad2ab4bb39978416f91930c7e923dbddf}} 
+\index{drawableTetromino@{drawableTetromino}!drawableTetromino@{drawableTetromino}}
+\index{drawableTetromino@{drawableTetromino}!drawableTetromino@{drawableTetromino}}
+\doxysubsubsection{\texorpdfstring{drawableTetromino()}{drawableTetromino()}}
+{\footnotesize\ttfamily drawable\+Tetromino\+::drawable\+Tetromino (\begin{DoxyParamCaption}\item[{sf\+::\+Render\+Window \&}]{window }\end{DoxyParamCaption})}
+
+
+
+Konstruktor klasy \mbox{\hyperlink{classdrawable_tetromino}{drawable\+Tetromino}} gdzie następuje inicjowanie wybranych metod, zmiennych i pozostałych elementów koniecznych dla danej klasy. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em window} & referencja do okna głównego gry konieczna w celu przekazania wszystkich utworzonych obiektów renderowalnych do wyświetlenia przez silnik gry Konstruktor tej klasy zawiera deklarację ziarna generatora liczb losowych, wywołanie metody inicjującej blok, deklarację wskaźnika shared pointer posiadającego metody klasy \mbox{\hyperlink{classdrawable_h_u_d}{drawable\+HUD}}, oraz deklarację początkowego koloru i wartości opóźnienia dla timera. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\mbox{\Hypertarget{classdrawable_tetromino_a71d2ff5bf5a282db68985d9ca931b749}\label{classdrawable_tetromino_a71d2ff5bf5a282db68985d9ca931b749}} 
+\index{drawableTetromino@{drawableTetromino}!moveSides@{moveSides}}
+\index{moveSides@{moveSides}!drawableTetromino@{drawableTetromino}}
+\doxysubsubsection{\texorpdfstring{moveSides()}{moveSides()}}
+{\footnotesize\ttfamily void drawable\+Tetromino\+::move\+Sides (\begin{DoxyParamCaption}\item[{float}]{direction }\end{DoxyParamCaption})}
+
+
+
+Metoda obsługująca ruch bloku w płaszczyźnie poziomej (lewo, prawo) 
+
+
+\begin{DoxyParams}{Parametry}
+{\em direction} & parametr odpowiadający za określenie kierunku poruszania, w zależności od wciśniętego klawisza przyjmuje dodatnią lub ujemną wartość Działanie metody polega na zmianie pozycji w płaszczyźnie poziomej dla każdego kwadracika składającego się na gotowy blok. Operacja ta odbywa się w pętli iterującej czterokrotnie dla każdego kwadracika. Do metody zostało dodane również zabezpieczenie przed kolizją, które jeszcze przed wykonaniem ruchu zapisuje pozycje wszystkich kwadracików do specjalnego bufora, a następnie sprawdza czy żaden z nich nie koliduje z pozostałymi obiektami gry. Jeśli kolizja nastąpi ruch zostanie cofnięty. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classdrawable_tetromino_aead77952a4c99aaadff7772c49c3a101}\label{classdrawable_tetromino_aead77952a4c99aaadff7772c49c3a101}} 
+\index{drawableTetromino@{drawableTetromino}!rotate@{rotate}}
+\index{rotate@{rotate}!drawableTetromino@{drawableTetromino}}
+\doxysubsubsection{\texorpdfstring{rotate()}{rotate()}}
+{\footnotesize\ttfamily void drawable\+Tetromino\+::rotate (\begin{DoxyParamCaption}\item[{bool}]{is\+Rotating }\end{DoxyParamCaption})}
+
+
+
+Metoda obsługująca ruch rotacyjny bloku. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em is\+Rotating} & parametr odpowiadający za określenie czy rotacja następuje czy też nie zatem w zależności od przypadku przyjmuje wartości kolejno true lub false Rotacja polega na wyznaczeniu punktu, który można nazwać centrum rotacji, a następnie z wykorzystaniem zmiennych pomocniczych obracania czyli zmieniania iteracyjnie pozycji każdego z 4 kwadracików w taki sposób aby po zakończonej operacji prezentowały one blok obrócony o 90 stopni. Rotacja została zabezpieczona przed kolizją zatem operacja zostaje odwrócona ilekroć blok będzie kolidować z innymi obiektami gry. Dodatkowe zabezpieczenia przed niepożądanymi zdarzeniami zostały również umieszczone w metodzie move\+Events klasy \mbox{\hyperlink{class_event_handler}{Event\+Handler}}. \\
+\hline
+\end{DoxyParams}
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Barti/\+Desktop/zajecia/semestr 5/\+Grafika komputerowa/\+Tetris\+ITis/\mbox{\hyperlink{drawable_tetromino_8h}{drawable\+Tetromino.\+h}}\item 
+C\+:/\+Users/\+Barti/\+Desktop/zajecia/semestr 5/\+Grafika komputerowa/\+Tetris\+ITis/drawable\+Tetromino.\+cpp\end{DoxyCompactItemize}

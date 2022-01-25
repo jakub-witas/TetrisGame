@@ -63,10 +63,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/butek/CLionProjects/TetrisITis
+CMAKE_SOURCE_DIR = /Users/butek/CLionProjects/TetrisGame
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/butek/CLionProjects/TetrisITis/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/butek/CLionProjects/TetrisGame/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/TetrisITis.dir/depend.make
@@ -79,68 +79,68 @@ include CMakeFiles/TetrisITis.dir/flags.make
 
 CMakeFiles/TetrisITis.dir/main.cpp.o: CMakeFiles/TetrisITis.dir/flags.make
 CMakeFiles/TetrisITis.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/butek/CLionProjects/TetrisITis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TetrisITis.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TetrisITis.dir/main.cpp.o -c /Users/butek/CLionProjects/TetrisITis/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/butek/CLionProjects/TetrisGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TetrisITis.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TetrisITis.dir/main.cpp.o -c /Users/butek/CLionProjects/TetrisGame/main.cpp
 
 CMakeFiles/TetrisITis.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TetrisITis.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/butek/CLionProjects/TetrisITis/main.cpp > CMakeFiles/TetrisITis.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/butek/CLionProjects/TetrisGame/main.cpp > CMakeFiles/TetrisITis.dir/main.cpp.i
 
 CMakeFiles/TetrisITis.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TetrisITis.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/butek/CLionProjects/TetrisITis/main.cpp -o CMakeFiles/TetrisITis.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/butek/CLionProjects/TetrisGame/main.cpp -o CMakeFiles/TetrisITis.dir/main.cpp.s
 
 CMakeFiles/TetrisITis.dir/GameEngine.cpp.o: CMakeFiles/TetrisITis.dir/flags.make
 CMakeFiles/TetrisITis.dir/GameEngine.cpp.o: ../GameEngine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/butek/CLionProjects/TetrisITis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TetrisITis.dir/GameEngine.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TetrisITis.dir/GameEngine.cpp.o -c /Users/butek/CLionProjects/TetrisITis/GameEngine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/butek/CLionProjects/TetrisGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TetrisITis.dir/GameEngine.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TetrisITis.dir/GameEngine.cpp.o -c /Users/butek/CLionProjects/TetrisGame/GameEngine.cpp
 
 CMakeFiles/TetrisITis.dir/GameEngine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TetrisITis.dir/GameEngine.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/butek/CLionProjects/TetrisITis/GameEngine.cpp > CMakeFiles/TetrisITis.dir/GameEngine.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/butek/CLionProjects/TetrisGame/GameEngine.cpp > CMakeFiles/TetrisITis.dir/GameEngine.cpp.i
 
 CMakeFiles/TetrisITis.dir/GameEngine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TetrisITis.dir/GameEngine.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/butek/CLionProjects/TetrisITis/GameEngine.cpp -o CMakeFiles/TetrisITis.dir/GameEngine.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/butek/CLionProjects/TetrisGame/GameEngine.cpp -o CMakeFiles/TetrisITis.dir/GameEngine.cpp.s
 
 CMakeFiles/TetrisITis.dir/DrawableHUD.cpp.o: CMakeFiles/TetrisITis.dir/flags.make
 CMakeFiles/TetrisITis.dir/DrawableHUD.cpp.o: ../DrawableHUD.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/butek/CLionProjects/TetrisITis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TetrisITis.dir/DrawableHUD.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TetrisITis.dir/DrawableHUD.cpp.o -c /Users/butek/CLionProjects/TetrisITis/DrawableHUD.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/butek/CLionProjects/TetrisGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TetrisITis.dir/DrawableHUD.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TetrisITis.dir/DrawableHUD.cpp.o -c /Users/butek/CLionProjects/TetrisGame/DrawableHUD.cpp
 
 CMakeFiles/TetrisITis.dir/DrawableHUD.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TetrisITis.dir/DrawableHUD.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/butek/CLionProjects/TetrisITis/DrawableHUD.cpp > CMakeFiles/TetrisITis.dir/DrawableHUD.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/butek/CLionProjects/TetrisGame/DrawableHUD.cpp > CMakeFiles/TetrisITis.dir/DrawableHUD.cpp.i
 
 CMakeFiles/TetrisITis.dir/DrawableHUD.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TetrisITis.dir/DrawableHUD.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/butek/CLionProjects/TetrisITis/DrawableHUD.cpp -o CMakeFiles/TetrisITis.dir/DrawableHUD.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/butek/CLionProjects/TetrisGame/DrawableHUD.cpp -o CMakeFiles/TetrisITis.dir/DrawableHUD.cpp.s
 
 CMakeFiles/TetrisITis.dir/drawableTetromino.cpp.o: CMakeFiles/TetrisITis.dir/flags.make
 CMakeFiles/TetrisITis.dir/drawableTetromino.cpp.o: ../drawableTetromino.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/butek/CLionProjects/TetrisITis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TetrisITis.dir/drawableTetromino.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TetrisITis.dir/drawableTetromino.cpp.o -c /Users/butek/CLionProjects/TetrisITis/drawableTetromino.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/butek/CLionProjects/TetrisGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TetrisITis.dir/drawableTetromino.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TetrisITis.dir/drawableTetromino.cpp.o -c /Users/butek/CLionProjects/TetrisGame/drawableTetromino.cpp
 
 CMakeFiles/TetrisITis.dir/drawableTetromino.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TetrisITis.dir/drawableTetromino.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/butek/CLionProjects/TetrisITis/drawableTetromino.cpp > CMakeFiles/TetrisITis.dir/drawableTetromino.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/butek/CLionProjects/TetrisGame/drawableTetromino.cpp > CMakeFiles/TetrisITis.dir/drawableTetromino.cpp.i
 
 CMakeFiles/TetrisITis.dir/drawableTetromino.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TetrisITis.dir/drawableTetromino.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/butek/CLionProjects/TetrisITis/drawableTetromino.cpp -o CMakeFiles/TetrisITis.dir/drawableTetromino.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/butek/CLionProjects/TetrisGame/drawableTetromino.cpp -o CMakeFiles/TetrisITis.dir/drawableTetromino.cpp.s
 
 CMakeFiles/TetrisITis.dir/EventHandler.cpp.o: CMakeFiles/TetrisITis.dir/flags.make
 CMakeFiles/TetrisITis.dir/EventHandler.cpp.o: ../EventHandler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/butek/CLionProjects/TetrisITis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TetrisITis.dir/EventHandler.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TetrisITis.dir/EventHandler.cpp.o -c /Users/butek/CLionProjects/TetrisITis/EventHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/butek/CLionProjects/TetrisGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TetrisITis.dir/EventHandler.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TetrisITis.dir/EventHandler.cpp.o -c /Users/butek/CLionProjects/TetrisGame/EventHandler.cpp
 
 CMakeFiles/TetrisITis.dir/EventHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TetrisITis.dir/EventHandler.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/butek/CLionProjects/TetrisITis/EventHandler.cpp > CMakeFiles/TetrisITis.dir/EventHandler.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/butek/CLionProjects/TetrisGame/EventHandler.cpp > CMakeFiles/TetrisITis.dir/EventHandler.cpp.i
 
 CMakeFiles/TetrisITis.dir/EventHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TetrisITis.dir/EventHandler.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/butek/CLionProjects/TetrisITis/EventHandler.cpp -o CMakeFiles/TetrisITis.dir/EventHandler.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/butek/CLionProjects/TetrisGame/EventHandler.cpp -o CMakeFiles/TetrisITis.dir/EventHandler.cpp.s
 
 # Object files for target TetrisITis
 TetrisITis_OBJECTS = \
@@ -165,7 +165,7 @@ TetrisITis: /usr/local/lib/libsfml-network.2.5.1.dylib
 TetrisITis: /usr/local/lib/libsfml-window.2.5.1.dylib
 TetrisITis: /usr/local/lib/libsfml-system.2.5.1.dylib
 TetrisITis: CMakeFiles/TetrisITis.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/butek/CLionProjects/TetrisITis/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable TetrisITis"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/butek/CLionProjects/TetrisGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable TetrisITis"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TetrisITis.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -178,6 +178,6 @@ CMakeFiles/TetrisITis.dir/clean:
 .PHONY : CMakeFiles/TetrisITis.dir/clean
 
 CMakeFiles/TetrisITis.dir/depend:
-	cd /Users/butek/CLionProjects/TetrisITis/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/butek/CLionProjects/TetrisITis /Users/butek/CLionProjects/TetrisITis /Users/butek/CLionProjects/TetrisITis/cmake-build-debug /Users/butek/CLionProjects/TetrisITis/cmake-build-debug /Users/butek/CLionProjects/TetrisITis/cmake-build-debug/CMakeFiles/TetrisITis.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/butek/CLionProjects/TetrisGame/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/butek/CLionProjects/TetrisGame /Users/butek/CLionProjects/TetrisGame /Users/butek/CLionProjects/TetrisGame/cmake-build-debug /Users/butek/CLionProjects/TetrisGame/cmake-build-debug /Users/butek/CLionProjects/TetrisGame/cmake-build-debug/CMakeFiles/TetrisITis.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/TetrisITis.dir/depend
 

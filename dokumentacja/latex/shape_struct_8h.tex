@@ -1,0 +1,61 @@
+\hypertarget{shape_struct_8h}{}\doxysection{Dokumentacja pliku C\+:/\+Users/\+Barti/\+Desktop/zajecia/semestr 5/\+Grafika komputerowa/\+Tetris\+ITis/shape\+Struct.h}
+\label{shape_struct_8h}\index{C:/Users/Barti/Desktop/zajecia/semestr 5/Grafika komputerowa/TetrisITis/shapeStruct.h@{C:/Users/Barti/Desktop/zajecia/semestr 5/Grafika komputerowa/TetrisITis/shapeStruct.h}}
+
+
+Plik nagłówkowy zawierający struktury, zmienne i tablice niezbędne do zaprogramowania logiki gry, oraz obiektów.  
+
+
+\doxysubsection*{Komponenty}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_point}{Point}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Zmienne}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{shape_struct_8h_a9edc6895d567e0ddcdd3cc20df3f3b4b}\label{shape_struct_8h_a9edc6895d567e0ddcdd3cc20df3f3b4b}} 
+const int {\bfseries M} = 20
+\begin{DoxyCompactList}\small\item\em Stała przechowująca wysokość planszy (w kolumnach) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{shape_struct_8h_ab2b6b0c222cd1ce70d6a831f57241e59}\label{shape_struct_8h_ab2b6b0c222cd1ce70d6a831f57241e59}} 
+const int {\bfseries N} = 10
+\begin{DoxyCompactList}\small\item\em Stała przechowuj{\ucr}ca szerokość planszy (w wierszach) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{shape_struct_8h_a6f65960378fcbb6c40b6164802344289}\label{shape_struct_8h_a6f65960378fcbb6c40b6164802344289}} 
+int {\bfseries field} \mbox{[}\mbox{\hyperlink{shape_struct_8h_a9edc6895d567e0ddcdd3cc20df3f3b4b}{M}}\mbox{]}\mbox{[}\mbox{\hyperlink{shape_struct_8h_ab2b6b0c222cd1ce70d6a831f57241e59}{N}}\mbox{]} = \{ 0 \}
+\begin{DoxyCompactList}\small\item\em Tablica typu int odpowiadajśca za pole gry. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{shape_struct_8h_af5e36a5e70dc7317b3fe14181e94392b}\label{shape_struct_8h_af5e36a5e70dc7317b3fe14181e94392b}} 
+struct \mbox{\hyperlink{struct_point}{Point}} {\bfseries a} \mbox{[}4\mbox{]}
+\begin{DoxyCompactList}\small\item\em Tablice 4 elementowe pozwalające ustalić położenie każdego z 4 elementów składających się na tetrimino w pętli. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{shape_struct_8h_a8a42585f3e9c61a77e29f5ce804c647a}\label{shape_struct_8h_a8a42585f3e9c61a77e29f5ce804c647a}} 
+struct \mbox{\hyperlink{struct_point}{Point}} {\bfseries b} \mbox{[}4\mbox{]}
+\item 
+int \mbox{\hyperlink{shape_struct_8h_a87455fa0ebd69299dadd5699578587f6}{figures}} \mbox{[}7\mbox{]}\mbox{[}4\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Opis szczegółowy}
+Plik nagłówkowy zawierający struktury, zmienne i tablice niezbędne do zaprogramowania logiki gry, oraz obiektów. 
+
+
+
+\doxysubsection{Dokumentacja zmiennych}
+\mbox{\Hypertarget{shape_struct_8h_a87455fa0ebd69299dadd5699578587f6}\label{shape_struct_8h_a87455fa0ebd69299dadd5699578587f6}} 
+\index{shapeStruct.h@{shapeStruct.h}!figures@{figures}}
+\index{figures@{figures}!shapeStruct.h@{shapeStruct.h}}
+\doxysubsubsection{\texorpdfstring{figures}{figures}}
+{\footnotesize\ttfamily int figures\mbox{[}7\mbox{]}\mbox{[}4\mbox{]}}
+
+{\bfseries Wartość początkowa\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=}
+\DoxyCodeLine{        \{}
+\DoxyCodeLine{                1,3,5,7, }
+\DoxyCodeLine{                2,4,5,7, }
+\DoxyCodeLine{                3,5,4,6, }
+\DoxyCodeLine{                3,5,4,7, }
+\DoxyCodeLine{                2,3,5,7, }
+\DoxyCodeLine{                3,5,7,6, }
+\DoxyCodeLine{                2,3,4,5, }
+\DoxyCodeLine{        \}}
+
+\end{DoxyCode}
+Tablica dwuwymiarowa służąca do tworzenia kształtów tetrimino. Tablicą można zaprezentować jak o 7 wierszy i 4 kolumny, z których każdy wiersz to zestaw cyfr odpowiadających jednemu blokowi. Przekazywane są one do metody z algorytmem konfigurującym, który interpretuje je jako gotowe kształty. 

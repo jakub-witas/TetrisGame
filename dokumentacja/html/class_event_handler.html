@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Tetris 2D: Dokumentacja klasy EventHandler</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Tetris 2D
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.9.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Szukaj','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Szukaj');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Metody publiczne</a> &#124;
+<a href="#pub-static-methods">Statyczne metody publiczne</a> &#124;
+<a href="class_event_handler-members.html">Lista wszystkich składowych</a>  </div>
+  <div class="headertitle"><div class="title">Dokumentacja klasy EventHandler</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Klasa obsługi zdarzeń w programie.  
+ <a href="class_event_handler.html#details">Więcej...</a></p>
+
+<p><code>#include &lt;<a class="el" href="_event_handler_8h_source.html">EventHandler.h</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Metody publiczne</h2></td></tr>
+<tr class="memitem:a8fe27b69582cce5c6a89a0b134bc8158"><td class="memItemLeft" align="right" valign="top"><a id="a8fe27b69582cce5c6a89a0b134bc8158" name="a8fe27b69582cce5c6a89a0b134bc8158"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>EventHandler</b> ()</td></tr>
+<tr class="memdesc:a8fe27b69582cce5c6a89a0b134bc8158"><td class="mdescLeft">&#160;</td><td class="mdescRight">Konstruktor klasy <a class="el" href="class_event_handler.html" title="Klasa obsługi zdarzeń w programie.">EventHandler</a>. <br /></td></tr>
+<tr class="separator:a8fe27b69582cce5c6a89a0b134bc8158"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Statyczne metody publiczne</h2></td></tr>
+<tr class="memitem:ac62c7f1242ec2422c7a1731e2b0e4a61"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_event_handler.html#ac62c7f1242ec2422c7a1731e2b0e4a61">moveEvents</a> (sf::Event &amp;event, <a class="el" href="_vars_8h.html#abb0a0d325512c70133b4aaab142ca460">currentTetromino</a> &amp;tetromino, bool paused)</td></tr>
+<tr class="memdesc:ac62c7f1242ec2422c7a1731e2b0e4a61"><td class="mdescLeft">&#160;</td><td class="mdescRight">Metoda realizująca zdarzenia klawiszowe pobierane od użytkownika podczas gry.  <a href="class_event_handler.html#ac62c7f1242ec2422c7a1731e2b0e4a61">Więcej...</a><br /></td></tr>
+<tr class="separator:ac62c7f1242ec2422c7a1731e2b0e4a61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Opis szczegółowy</h2>
+<div class="textblock"><p >Klasa obsługi zdarzeń w programie. </p>
+<p >Klasa ta obsługuje i przetwarza zdarzenia klawiszowe, oraz wykonuje metody przypisane do tych zdarzeń pozwalając uzyskać możliwość ruchu bloku </p>
+</div><h2 class="groupheader">Dokumentacja funkcji składowych</h2>
+<a id="ac62c7f1242ec2422c7a1731e2b0e4a61" name="ac62c7f1242ec2422c7a1731e2b0e4a61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac62c7f1242ec2422c7a1731e2b0e4a61">&#9670;&nbsp;</a></span>moveEvents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EventHandler::moveEvents </td>
+          <td>(</td>
+          <td class="paramtype">sf::Event &amp;&#160;</td>
+          <td class="paramname"><em>event</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="_vars_8h.html#abb0a0d325512c70133b4aaab142ca460">currentTetromino</a> &amp;&#160;</td>
+          <td class="paramname"><em>tetromino</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>paused</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Metoda realizująca zdarzenia klawiszowe pobierane od użytkownika podczas gry. </p>
+<dl class="params"><dt>Parametry</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">event</td><td>referencja pozwalająca uzyskać dostęp do obiektu realizującego zdarzenia znajdującego się w pętli głównej gry </td></tr>
+    <tr><td class="paramname">tetromino</td><td>referencja do tzw "sprytnego wskaźnika" pozwalającego wykorzystać metody z klasy <a class="el" href="classdrawable_tetromino.html" title="Klasa odpowiadająca za wszystkie akcje i zachowania związane z danym blokiem.">drawableTetromino</a> na potrzeby wykonania zdarzeń przypisanych poszczególnym klawiszom Metoda ta poprzez wywołanie odpowiednich metod z klasy <a class="el" href="classdrawable_tetromino.html" title="Klasa odpowiadająca za wszystkie akcje i zachowania związane z danym blokiem.">drawableTetromino</a> pozwala zarządzać zdarzeniami generowanymi w programie podczas naciśnięcia odpowiedniego klawisza spośród obsługiwanych. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<hr/>Dokumentacja dla tej klasy została wygenerowana z plików:<ul>
+<li>C:/Users/Barti/Desktop/zajecia/semestr 5/Grafika komputerowa/TetrisITis/<a class="el" href="_event_handler_8h_source.html">EventHandler.h</a></li>
+<li>C:/Users/Barti/Desktop/zajecia/semestr 5/Grafika komputerowa/TetrisITis/EventHandler.cpp</li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano przez&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.2
+</small></address>
+</body>
+</html>

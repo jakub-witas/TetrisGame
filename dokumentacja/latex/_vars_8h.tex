@@ -1,0 +1,32 @@
+\hypertarget{_vars_8h}{}\doxysection{Dokumentacja pliku C\+:/\+Users/\+Barti/\+Desktop/zajecia/semestr 5/\+Grafika komputerowa/\+Tetris\+ITis/\+Vars.h}
+\label{_vars_8h}\index{C:/Users/Barti/Desktop/zajecia/semestr 5/Grafika komputerowa/TetrisITis/Vars.h@{C:/Users/Barti/Desktop/zajecia/semestr 5/Grafika komputerowa/TetrisITis/Vars.h}}
+
+
+Plik nagłówkowy z załączonymi bibliotekami, oraz inicjację zmiennych i wskaźników typu shared pointer używanych w projekcie.  
+
+
+{\ttfamily \#include $<$SFML/\+Graphics.\+hpp$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$memory$>$}\newline
+\doxysubsection*{Komponenty}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{struct_tetris_vars}{Tetris\+Vars}}
+\begin{DoxyCompactList}\small\item\em Struktura odpowiadająca za deklarację ogólnych stałych z zmiennych wykorzystywanych w metodach całego programu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Definicje typów}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_vars_8h_abb0a0d325512c70133b4aaab142ca460}\label{_vars_8h_abb0a0d325512c70133b4aaab142ca460}} 
+using {\bfseries current\+Tetromino} = std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classdrawable_tetromino}{drawable\+Tetromino}} $>$
+\begin{DoxyCompactList}\small\item\em Deklaracja wskaźnika shared pointer typu current\+Tetromino, który pozwala uzyskać dostęp do metod publicznych klasy \mbox{\hyperlink{classdrawable_tetromino}{drawable\+Tetromino}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{_vars_8h_a4550b5ca63b98d086cf2a5351b8e89ae}\label{_vars_8h_a4550b5ca63b98d086cf2a5351b8e89ae}} 
+using {\bfseries event\+Ptr} = std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{class_event_handler}{Event\+Handler}} $>$
+\begin{DoxyCompactList}\small\item\em Deklaracja wskaźnika shared pointer typu event\+Ptr, który pozwala uzyskać dostęp do metod publicznych klasy \mbox{\hyperlink{class_event_handler}{Event\+Handler}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{_vars_8h_a92f5bb063b6b4dd1d9897d255c337f56}\label{_vars_8h_a92f5bb063b6b4dd1d9897d255c337f56}} 
+using {\bfseries HUDptr} = std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classdrawable_h_u_d}{drawable\+HUD}} $>$
+\begin{DoxyCompactList}\small\item\em Deklaracja wskaźnika shared pointer typu HUDptr, który pozwala uzyskać dostęp do metod publicznych klasy \mbox{\hyperlink{classdrawable_h_u_d}{drawable\+HUD}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Opis szczegółowy}
+Plik nagłówkowy z załączonymi bibliotekami, oraz inicjację zmiennych i wskaźników typu shared pointer używanych w projekcie. 
+

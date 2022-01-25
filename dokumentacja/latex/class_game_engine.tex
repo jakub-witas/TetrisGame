@@ -1,0 +1,86 @@
+\hypertarget{class_game_engine}{}\doxysection{Dokumentacja klasy Game\+Engine}
+\label{class_game_engine}\index{GameEngine@{GameEngine}}
+\doxysubsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_game_engine_a5cbd1eef7917ab2ce33fd739fd537c53}\label{class_game_engine_a5cbd1eef7917ab2ce33fd739fd537c53}} 
+void {\bfseries draw} ()
+\begin{DoxyCompactList}\small\item\em Główna metoda rysująca na ekranie obiekty renderowalne z pozostałych klas (bitmapy, bloki, tekst) Odpowiada ona za skompletowanie wszystkich metod rysujących z pozostałych klas na potrzeby wywołania ich w funkcji main programu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_engine_a8e9a7982482a806df15f4f951f65ccb2}{update}} (sf\+::\+Event \&event)
+\begin{DoxyCompactList}\small\item\em Główna metoda typu update, która na bieżąco sprawdza i wykonuje akcje. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_engine_a3503925a9c294b119f7835caf375e5e4}{move\+Events}} (sf\+::\+Event \&event)
+\begin{DoxyCompactList}\small\item\em Główna funkcja zarządzająca zdarzeniami związanymi z ruchem bloków. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_game_engine_a98b8e08fe994fca0cd9673894fcd01b9}{Game\+Engine}} (sf\+::\+Render\+Window \&window)
+\begin{DoxyCompactList}\small\item\em Konstruktor zawierający deklaracje zmiennych i wskaźników typu shared pointer na potrzeby klasy. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_game_engine_a0b02eb1da9c2d403d187146a150a1085}\label{class_game_engine_a0b02eb1da9c2d403d187146a150a1085}} 
+void {\bfseries pause} ()
+\item 
+\mbox{\Hypertarget{class_game_engine_aaa37aacf598ed73fde3bad078e76ea33}\label{class_game_engine_aaa37aacf598ed73fde3bad078e76ea33}} 
+int {\bfseries game\+Over} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Atrybuty publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_game_engine_a4bd7e98ab6dc41a0ebc21d632b3adebf}\label{class_game_engine_a4bd7e98ab6dc41a0ebc21d632b3adebf}} 
+bool {\bfseries paused}
+\item 
+\mbox{\Hypertarget{class_game_engine_ab438a5a703cbfd163699cff2e6b752dd}\label{class_game_engine_ab438a5a703cbfd163699cff2e6b752dd}} 
+bool {\bfseries game\+Over\+State}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Dokumentacja konstruktora i destruktora}
+\mbox{\Hypertarget{class_game_engine_a98b8e08fe994fca0cd9673894fcd01b9}\label{class_game_engine_a98b8e08fe994fca0cd9673894fcd01b9}} 
+\index{GameEngine@{GameEngine}!GameEngine@{GameEngine}}
+\index{GameEngine@{GameEngine}!GameEngine@{GameEngine}}
+\doxysubsubsection{\texorpdfstring{GameEngine()}{GameEngine()}}
+{\footnotesize\ttfamily Game\+Engine\+::\+Game\+Engine (\begin{DoxyParamCaption}\item[{sf\+::\+Render\+Window \&}]{window }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+Konstruktor zawierający deklaracje zmiennych i wskaźników typu shared pointer na potrzeby klasy. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em window} & Referencja do okna głównego programu \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Dokumentacja funkcji składowych}
+\mbox{\Hypertarget{class_game_engine_a3503925a9c294b119f7835caf375e5e4}\label{class_game_engine_a3503925a9c294b119f7835caf375e5e4}} 
+\index{GameEngine@{GameEngine}!moveEvents@{moveEvents}}
+\index{moveEvents@{moveEvents}!GameEngine@{GameEngine}}
+\doxysubsubsection{\texorpdfstring{moveEvents()}{moveEvents()}}
+{\footnotesize\ttfamily void Game\+Engine\+::move\+Events (\begin{DoxyParamCaption}\item[{sf\+::\+Event \&}]{event }\end{DoxyParamCaption})}
+
+
+
+Główna funkcja zarządzająca zdarzeniami związanymi z ruchem bloków. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em event} & referencja do obiektu klasy Event zarządzającego zdarzeniami na potrzeby korzystania ze zdarzeń klawiszowych \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_game_engine_a8e9a7982482a806df15f4f951f65ccb2}\label{class_game_engine_a8e9a7982482a806df15f4f951f65ccb2}} 
+\index{GameEngine@{GameEngine}!update@{update}}
+\index{update@{update}!GameEngine@{GameEngine}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void Game\+Engine\+::update (\begin{DoxyParamCaption}\item[{sf\+::\+Event \&}]{event }\end{DoxyParamCaption})}
+
+
+
+Główna metoda typu update, która na bieżąco sprawdza i wykonuje akcje. 
+
+
+\begin{DoxyParams}{Parametry}
+{\em event} & referencja do obiektu klasy Event zarządzającego zdarzeniami Metoda ta zgodnie z licznikiem czasu obsługuje aktualizowanie i wywoływanie poszczególnych zdarzeń w programie. Zatem aktualizując zdarzenia zgodnie z opóźnieniem tzw. \char`\"{}delay\char`\"{} wykonywane są etapy takie jak konfiguracja bloku, sprawdzanie wierszy wraz z końcową obsługą naliczania punktów, oraz uko{\ucr}czonych linii, a także wywołanie zdarzenia końca gry. \\
+\hline
+\end{DoxyParams}
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Barti/\+Desktop/zajecia/semestr 5/\+Grafika komputerowa/\+Tetris\+ITis/Game\+Engine.\+h\item 
+C\+:/\+Users/\+Barti/\+Desktop/zajecia/semestr 5/\+Grafika komputerowa/\+Tetris\+ITis/\mbox{\hyperlink{_game_engine_8cpp}{Game\+Engine.\+cpp}}\end{DoxyCompactItemize}

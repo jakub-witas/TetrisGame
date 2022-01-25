@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/butek/CLionProjects/TetrisITis/DrawableHUD.cpp" "/Users/butek/CLionProjects/TetrisITis/cmake-build-debug/CMakeFiles/TetrisITis.dir/DrawableHUD.cpp.o"
-  "/Users/butek/CLionProjects/TetrisITis/EventHandler.cpp" "/Users/butek/CLionProjects/TetrisITis/cmake-build-debug/CMakeFiles/TetrisITis.dir/EventHandler.cpp.o"
-  "/Users/butek/CLionProjects/TetrisITis/GameEngine.cpp" "/Users/butek/CLionProjects/TetrisITis/cmake-build-debug/CMakeFiles/TetrisITis.dir/GameEngine.cpp.o"
-  "/Users/butek/CLionProjects/TetrisITis/drawableTetromino.cpp" "/Users/butek/CLionProjects/TetrisITis/cmake-build-debug/CMakeFiles/TetrisITis.dir/drawableTetromino.cpp.o"
-  "/Users/butek/CLionProjects/TetrisITis/main.cpp" "/Users/butek/CLionProjects/TetrisITis/cmake-build-debug/CMakeFiles/TetrisITis.dir/main.cpp.o"
+  "/Users/butek/CLionProjects/TetrisGame/DrawableHUD.cpp" "/Users/butek/CLionProjects/TetrisGame/cmake-build-debug/CMakeFiles/TetrisITis.dir/DrawableHUD.cpp.o"
+  "/Users/butek/CLionProjects/TetrisGame/EventHandler.cpp" "/Users/butek/CLionProjects/TetrisGame/cmake-build-debug/CMakeFiles/TetrisITis.dir/EventHandler.cpp.o"
+  "/Users/butek/CLionProjects/TetrisGame/GameEngine.cpp" "/Users/butek/CLionProjects/TetrisGame/cmake-build-debug/CMakeFiles/TetrisITis.dir/GameEngine.cpp.o"
+  "/Users/butek/CLionProjects/TetrisGame/drawableTetromino.cpp" "/Users/butek/CLionProjects/TetrisGame/cmake-build-debug/CMakeFiles/TetrisITis.dir/drawableTetromino.cpp.o"
+  "/Users/butek/CLionProjects/TetrisGame/main.cpp" "/Users/butek/CLionProjects/TetrisGame/cmake-build-debug/CMakeFiles/TetrisITis.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
